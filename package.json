@@ -1,0 +1,17 @@
+{
+  "name": "serverless-course",
+  "version": "1.0.0",
+  "description": "cool serverless app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "cristina verdi",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^1.55.1"
+  }
+}

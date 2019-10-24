@@ -4,7 +4,8 @@
   "description": "cool serverless app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "deploy": "serverless deploy --aws-profile serverless-local"
   },
   "keywords": [
     "serverless"

@@ -1,0 +1,15 @@
+service: gettogether
+
+provider: 
+  name: aws
+  runtime: nodejs10.x
+  region: eu-west-1
+  stage: dev
+
+functions:
+  helloWorld:
+    handler: src/functions/helloworld.handler
+    events:
+      - http:
+          path: api/helloworld/{name}
+          method: get

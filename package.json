@@ -4,7 +4,7 @@
   "description": "cool serverless app",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test:integration": "jest ./tests/*",
     "deploy": "serverless deploy --aws-profile serverless-local"
   },
   "keywords": [

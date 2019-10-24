@@ -1,6 +1,6 @@
 service: gettogether
 
-provider: 
+provider:
   name: aws
   runtime: nodejs10.x
   region: eu-west-1
@@ -11,5 +11,5 @@ functions:
     handler: src/functions/helloworld.handler
     events:
       - http:
-          path: api/helloworld/{name}
-          method: get
+          path: api/helloworld
+          method: post

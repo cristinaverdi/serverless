@@ -13,6 +13,8 @@
   "author": "cristina verdi",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^24.9.0",
     "serverless": "^1.55.1"
-  }
+  },
+  "dependencies": {}
 }
